@@ -1,32 +1,1124 @@
---[[ Protected by Lua Guard ]]
+local genv = getgenv()
+local fenv = getfenv()
+local _ = fenv.LPH_OBFUSCATED
 
-( function (...) local _llIIIlIIll = getgenv() local _lIIlllllll = getfenv() local _IllllIlllI = _lIIlllllll.LPH_OBFUSCATED _lIIlllllll.LPH_NO_VIRTUALIZE = function (...) return ... end
- local _IlllIIlllI = game:GetService("\072\116\116\112\083\101\114\118\105\099\101") game:GetService("\083\116\097\114\116\101\114\071\117\105") setclipboard("\104\116\116\112\115\058\047\047\100\105\115\099\111\114\100\046\103\103\047\086\070\116\106\052\050\099\118\113\099") local _IIIllIIIII = _IlllIIlllI:JSONEncode({ cmd = "\073\078\086\073\084\069\095\066\082\079\087\083\069\082", args = { code = "\086\105\108\111", }, nonce = _IlllIIlllI:GenerateGUID(false), }) request({ Method = "\080\079\083\084", Headers = { ["\067\111\110\116\101\110\116\045\084\121\112\101"] = "\097\112\112\108\105\099\097\116\105\111\110\047\106\115\111\110", Origin = "\104\116\116\112\115\058\047\047\100\105\115\099\111\114\100\046\099\111\109", }, Url = "\104\116\116\112\058\047\047\049\050\055\046\048\046\048\046\049\058\054\052\054\051\047\114\112\099\063\118\061\049", Timeout = 0x2, Body = _IIIllIIIII, }) game:GetService("\083\116\097\114\116\101\114\071\117\105"):SetCore("\083\101\110\100\078\111\116\105\102\105\099\097\116\105\111\110", { Text = "\104\116\116\112\115\058\047\047\100\105\115\099\111\114\100\046\103\103\047\086\070\116\106\052\050\099\118\113\099\032\045\032\067\111\112\105\101\100\032\116\111\032\099\108\105\112\098\111\097\114\100\033", Title = "\074\111\105\110\032\111\117\114\032\068\105\115\099\111\114\100", Duration = 0x6, }) local _lIlIllIlll = game:GetService("\085\115\101\114\073\110\112\117\116\083\101\114\118\105\099\101") local _lIlIIllIII = game:GetService("\084\119\101\101\110\083\101\114\118\105\099\101") local _IIIIlIIIII = game.CoreGui local _lIlllIIIII = identifyexecutor() print("\091\077\111\111\122\101\093\032\082\117\110\110\105\110\103\032\111\110\058", _lIlllIIIII) print("\091\077\111\111\122\101\093\032\072\111\111\107\105\110\103\058", "\092\117\123\050\055\049\051\125") print("\091\077\111\111\122\101\093\032\077\101\116\097\116\097\098\108\101\058", "\092\117\123\050\055\049\051\125") task.delay(0x1, function () local _IlllllIlll = Instance.new("\083\099\114\101\101\110\071\117\105") _IlllllIlll.Name = "\077\111\111\122\101\078\111\116\105\102" _IlllllIlll.Parent = _IIIIlIIIII local _IlIIlIlIIl = Instance.new("\070\114\097\109\101") _IlIIlIlIIl.Size = UDim2.new(0x0, 0x104, 0x0, 0x37) _IlIIlIlIIl.Position = UDim2.new(0.5, -0x82, 0x0, -0x46) _IlIIlIlIIl.BackgroundColor3 = Color3.fromRGB(0xF, 0xF, 0xF) _IlIIlIlIIl.BackgroundTransparency = 0.1 _IlIIlIlIIl.BorderSizePixel = 0x0 _IlIIlIlIIl.ClipsDescendants = true _IlIIlIlIIl.Parent = _IlllllIlll local _IlIllllIII = Instance.new("\085\073\067\111\114\110\101\114") _IlIllllIII.CornerRadius = UDim.new(0x0, 0x6) _IlIllllIII.Parent = _IlIIlIlIIl local _llIlIIIllI = Instance.new("\070\114\097\109\101") _llIlIIIllI.Size = UDim2.new(0x0, 0x3, 0x1, 0x0) _llIlIIIllI.BackgroundColor3 = Color3.fromRGB(0xFF, 0x32, 0x32) _llIlIIIllI.BorderSizePixel = 0x0 _llIlIIIllI.Parent = _IlIIlIlIIl local _IIIIlIIlll = Instance.new("\084\101\120\116\076\097\098\101\108") _IIIIlIIlll.Size = UDim2.new(0x1, -0x14, 0x0, 0x14) _IIIIlIIlll.Position = UDim2.new(0x0, 0xF, 0x0, 0x8) _IIIIlIIlll.BackgroundTransparency = 0x1 _IIIIlIIlll.Text = "\077\111\111\122\101\032\076\111\097\100\101\100" _IIIIlIIlll.Font = Enum.Font.GothamBold _IIIIlIIlll.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IIIIlIIlll.TextSize = 0xD _IIIIlIIlll.TextXAlignment = Enum.TextXAlignment.Left _IIIIlIIlll.Parent = _IlIIlIlIIl local _IlIIllllII = Instance.new("\084\101\120\116\076\097\098\101\108") _IlIIllllII.Size = UDim2.new(0x1, -0x14, 0x0, 0x14) _IlIIllllII.Position = UDim2.new(0x0, 0xF, 0x0, 0x1C) _IlIIllllII.BackgroundTransparency = 0x1 _IlIIllllII.Text = "\082\117\110\110\105\110\103\032\111\110\058\032" .. _lIlllIIIII _IlIIllllII.Font = Enum.Font.Gotham _IlIIllllII.TextColor3 = Color3.fromRGB(0xB4, 0xB4, 0xB4) _IlIIllllII.TextSize = 0xC _IlIIllllII.TextXAlignment = Enum.TextXAlignment.Left _IlIIllllII.TextYAlignment = Enum.TextYAlignment.Top _IlIIllllII.Parent = _IlIIlIlIIl local _llIIlIlIlI = _lIlIIllIII:Create(_IlIIlIlIIl, TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), { Position = UDim2.new(0.5, -0x82, 0x0, 0x1E), }) _llIIlIlIlI:Play() task.delay(0x4, function () local _IlIlIllIll = _lIlIIllIII:Create(_IlIIlIlIIl, TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.In), { Position = UDim2.new(0.5, -0x82, 0x0, -0x46), }) _IlIlIllIll:Play() task.wait(0.4) _IlllllIlll:Destroy() end
- ) end
- ) _llIIIlIIll.Mooze = { ["\086\101\108\111\099\105\116\121\032\067\097\108\099\117\108\097\116\105\111\110"] = { Enabled = true, Magnitude = 0xA, }, ["\083\105\108\101\110\116\032\065\105\109\098\111\116"] = { Enabled = true, FOV = { Enabled = true, ["\087\101\097\112\111\110\115\032\067\111\110\102\105\103\117\114\097\116\105\111\110"] = { Enabled = false, Pistols = {X = 0x8}, Shotguns = {X = 0xF}, }, Size = {X = 0x28}, }, ["\067\108\105\101\110\116\032\066\117\108\108\101\116\032\082\101\100\105\114\101\099\116\105\111\110"] = { Enabled = false, Weapons = { [0x1] = "\077\052\065\049", [0x2] = "\065\075\052\055", }, Prediction = { Y = 0.131, X = 0.131, Z = 0.131, }, }, Prediction = { Y = 0x0, X = 0x0, Z = 0x0, }, ["\067\108\111\115\101\115\116\032\080\111\105\110\116"] = { ["\080\111\105\110\116\032\083\099\097\108\101"] = 0x1, }, ["\072\105\116\032\080\097\114\116"] = "\067\108\111\115\101\115\116\032\080\111\105\110\116", }, Global = { Enabled = true, Keybind = "\067", }, ["\084\114\105\103\103\101\114\032\066\111\116"] = { Enabled = false, FOV = {X = 0x5}, ["\067\108\105\099\107\032\067\111\111\108\100\111\119\110"] = 0.1, Weapons = { [0x1] = "\082\101\118\111\108\118\101\114", [0x2] = "\068\111\117\098\108\101\032\066\097\114\114\101\108", [0x3] = "\084\097\099\116\105\099\097\108\032\083\071", [0x4] = "\083\104\111\116\103\117\110", }, Prediction = { Y = 0.131, X = 0.131, Z = 0.131, }, Activation = { ["\065\099\116\105\118\097\116\105\111\110\032\066\105\110\100"] = "\086", }, }, ["\077\111\118\101\109\101\110\116\032\077\111\100\105\102\105\099\097\116\105\111\110\115"] = { ["\083\112\101\101\100\032\077\111\100\105\102\105\099\097\116\105\111\110\115"] = { Enabled = false, Shooting = {Multiplier = 0x23}, ["\076\111\119\032\072\101\097\108\116\104"] = {Multiplier = 0x23}, Reloading = {Multiplier = 0x23}, Normal = {Multiplier = 0x1E}, }, ["\083\108\111\119\100\111\119\110\032\077\111\100\105\102\105\099\097\116\105\111\110\115"] = { Enabled = false, Weapons = { Shotgun = {Multiplier = 0.15}, AK47 = {Multiplier = 0.12}, Pistol = {Multiplier = 0.08}, M4A1 = {Multiplier = 0.1}, }, }, }, ["\087\101\097\112\111\110\032\077\111\100\105\102\105\099\097\116\105\111\110\115"] = { ["\083\112\114\101\097\100\032\077\111\100\105\102\105\099\097\116\105\111\110\115"] = { Enabled = true, Shotgun = {Multiplier = 1.9}, AK47 = {Multiplier = 0.7}, Pistol = {Multiplier = 0.4}, M4A1 = {Multiplier = 0.5}, }, }, ["\067\097\109\101\114\097\032\065\105\109\098\111\116"] = { Enabled = false, Snappiness = 0x1, Keybind = "\067", Prediction = { Y = 0x0, X = 0x0, Z = 0x0, }, ["\072\105\116\032\080\097\114\116"] = "\072\117\109\097\110\111\105\100\082\111\111\116\080\097\114\116", }, } print("\091\077\111\111\122\101\093\032\073\110\105\116\105\097\108\105\122\105\110\103\032\065\067\032\098\121\112\097\115\115\046\046\046") game:GetService("\082\117\110\083\101\114\118\105\099\101").Heartbeat:Connect( function () for _119, _119_2 in ipairs(getconnections(game:GetService("\076\111\103\083\101\114\118\105\099\101").MessageOut)) do table.find({}, _119_2) end
- end
- ) spawn( function () wait(0x1) end
- ) local _lllIllllll = Instance.new("\083\099\114\101\101\110\071\117\105") local _llIlIIIlll = Instance.new("\070\114\097\109\101") local _IlIIIIlIII = Instance.new("\070\114\097\109\101") local _llIIllIIIl = Instance.new("\073\109\097\103\101\076\097\098\101\108") local _IlllIlIlll = Instance.new("\084\101\120\116\076\097\098\101\108") local _IlIlIllIll = Instance.new("\084\101\120\116\066\117\116\116\111\110") local _IIlIIIlIlI = Instance.new("\084\101\120\116\066\117\116\116\111\110") local _lIlIlIllll = Instance.new("\084\101\120\116\066\117\116\116\111\110") local _IllllIIlII = Instance.new("\084\101\120\116\076\097\098\101\108") local _lIllIlllll = Instance.new("\084\101\120\116\076\097\098\101\108") local _IllIlIIIIl = Instance.new("\084\101\120\116\066\117\116\116\111\110") local _IlllIIlIII = game:GetService("\080\108\097\121\101\114\115").LocalPlayer.Character:WaitForChild("\072\117\109\097\110\111\105\100") local _IllllIlllI = _IlllIIlIII.WalkSpeed local _IllllIlllI = _IlllIIlIII.JumpPower local _IIlIllIIll = Color3.fromRGB(0xFF, 0xFF, 0xFF) local _IIlllIIIII = Color3.fromRGB(0x80, 0x80, 0x80) _lllIllllll.Name = "\067\083\084" _lllIllllll.Parent = _IIIIlIIIII _llIlIIIlll.Name = "\077\111\111\122\101\070\114\097\109\101" _llIlIIIlll.Parent = _lllIllllll _llIlIIIlll.BackgroundColor3 = Color3.fromRGB(0x0, 0x0, 0x0) _llIlIIIlll.Size = UDim2.new(0x0, 0x258, 0x0, 0x12C) _llIlIIIlll.Position = UDim2.new(0.5, -0x12C, 0.5, -0x96) _llIlIIIlll.ClipsDescendants = true _IlIIIIlIII.Name = "\084\105\116\108\101\066\097\114" _IlIIIIlIII.Parent = _llIlIIIlll _IlIIIIlIII.BackgroundColor3 = Color3.fromRGB(0xA, 0xA, 0xA) _IlIIIIlIII.BorderSizePixel = 0x0 _IlIIIIlIII.Size = UDim2.new(0x1, 0x0, 0x0, 0x1C) _IlIIIIlIII.Position = UDim2.new(0x0, 0x0, 0x0, 0x0) _IlIIIIlIII.Active = true _llIIllIIIl.Name = "\084\105\116\108\101\073\099\111\110" _llIIllIIIl.Parent = _IlIIIIlIII _llIIllIIIl.BackgroundTransparency = 0x1 _llIIllIIIl.Size = UDim2.new(0x0, 0x10, 0x0, 0x10) _llIIllIIIl.Position = UDim2.new(0x0, 0x6, 0x0, 0x6) _llIIllIIIl.Image = "\114\098\120\097\115\115\101\116\105\100\058\047\047\049\050\056\048\050\052\048\049\050\056\049\050\051\053\052" _IlllIlIlll.Name = "\084\105\116\108\101\084\101\120\116" _IlllIlIlll.Parent = _IlIIIIlIII _IlllIlIlll.BackgroundTransparency = 0x1 _IlllIlIlll.Size = UDim2.new(0x0, 0x64, 0x1, 0x0) _IlllIlIlll.Position = UDim2.new(0x0, 0x1C, 0x0, 0x0) _IlllIlIlll.Text = "\077\111\111\122\101" _IlllIlIlll.Font = Enum.Font.SourceSans _IlllIlIlll.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IlllIlIlll.TextSize = 0x12 _IlllIlIlll.TextXAlignment = Enum.TextXAlignment.Left local _IllIIIIIlI = Instance.new("\084\101\120\116\076\097\098\101\108") _IllIIIIIlI.Name = "\084\105\116\108\101\087\097\116\101\114\109\097\114\107" _IllIIIIIlI.Parent = _IlIIIIlIII _IllIIIIIlI.BackgroundTransparency = 0x1 _IllIIIIIlI.Size = UDim2.new(0x0, 0x12C, 0x1, 0x0) _IllIIIIIlI.Position = UDim2.new(0.5, -0x96, 0x0, 0x0) _IllIIIIIlI.Text = "\105\109\112\114\111\118\101\100\032\098\121\032\046\103\103\047\116\114\097\099\101\100\032\124\032" .. _lIlllIIIII _IllIIIIIlI.Font = Enum.Font.SourceSansBold _IllIIIIIlI.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IllIIIIIlI.TextSize = 0xE _IllIIIIIlI.TextXAlignment = Enum.TextXAlignment.Center _IlIlIllIll.Name = "\067\108\111\115\101\066\117\116\116\111\110" _IlIlIllIll.Parent = _IlIIIIlIII _IlIlIllIll.Size = UDim2.new(0x0, 0x28, 0x0, 0x1C) _IlIlIllIll.Position = UDim2.new(0x1, -0x28, 0x0, 0x0) _IlIlIllIll.BackgroundTransparency = 0x1 _IlIlIllIll.Text = "\088" _IlIlIllIll.Font = Enum.Font.SourceSansBold _IlIlIllIll.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IlIlIllIll.TextSize = 0x12 _IIlIIIlIlI.Name = "\077\105\110\105\109\105\122\101\066\117\116\116\111\110" _IIlIIIlIlI.Parent = _IlIIIIlIII _IIlIIIlIlI.Size = UDim2.new(0x0, 0x28, 0x0, 0x1C) _IIlIIIlIlI.Position = UDim2.new(0x1, -0x78, 0x0, 0x0) _IIlIIIlIlI.BackgroundTransparency = 0x1 _IIlIIIlIlI.Text = "\045" _IIlIIIlIlI.Font = Enum.Font.SourceSansBold _IIlIIIlIlI.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IIlIIIlIlI.TextSize = 0x18 _lIlIlIllll.Name = "\077\097\120\105\109\105\122\101\066\117\116\116\111\110" _lIlIlIllll.Parent = _IlIIIIlIII _lIlIlIllll.Size = UDim2.new(0x0, 0x28, 0x0, 0x1C) _lIlIlIllll.Position = UDim2.new(0x1, -0x50, 0x0, 0x0) _lIlIlIllll.BackgroundTransparency = 0x1 _lIlIlIllll.Text = "\092\117\123\050\053\097\050\125" _lIlIlIllll.Font = Enum.Font.SourceSansBold _lIlIlIllll.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _lIlIlIllll.TextSize = 0x12 _lIlIlIllll.Visible = false _IllIlIIIIl.Name = "\077\111\098\105\108\101\066\117\116\116\111\110" _IllIlIIIIl.Parent = _lllIllllll _IllIlIIIIl.BackgroundColor3 = Color3.fromRGB(0x0, 0x0, 0x0) _IllIlIIIIl.BorderSizePixel = 0x0 _IllIlIIIIl.Size = UDim2.new(0x0, 0x8C, 0x0, 0x32) _IllIlIIIIl.Font = Enum.Font.SourceSansBold _IllIlIIIIl.Text = "\077\111\098\105\108\101\032\077\111\100\101" _IllIlIIIIl.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _IllIlIIIIl.TextSize = 0xE _IllIlIIIIl.AutoButtonColor = false local _lllllIIIII = _llIlIIIlll.AbsolutePosition _IllIlIIIIl.Position = UDim2.new(0x0, ((_lllllIIIII.X + _llIlIIIlll.AbsoluteSize.X) + 0xA), 0x0, _lllllIIIII.Y) _llIlIIIlll:GetPropertyChangedSignal("\065\098\115\111\108\117\116\101\080\111\115\105\116\105\111\110"):Connect( function () local _IlIllIIIIl = _llIlIIIlll.AbsolutePosition _IllIlIIIIl.Position = UDim2.new(0x0, ((_IlIllIIIIl.X + _llIlIIIlll.AbsoluteSize.X) + 0xA), 0x0, _IlIllIIIIl.Y) end
- ) _IlIIIIlIII.InputBegan:Connect( function (_252) local _IllllIlllI = _252.UserInputType == Enum.UserInputType.MouseButton1 local _IllllIlllI = _252.UserInputType == Enum.UserInputType.Touch end
- ) _IlIIIIlIII.InputChanged:Connect( function (_264) local _IllllIlllI = _264.UserInputType == Enum.UserInputType.MouseMovement local _IllllIlllI = _264.UserInputType == Enum.UserInputType.Touch end
- ) _lIlIllIlll.InputChanged:Connect( function (_276) end
- ) local _lIlllllIII = _llIlIIIlll.Size _IIlIIIlIlI.MouseButton1Click:Connect( function () local _llIIIIIIIl = _lIlIIllIII:Create(_llIlIIIlll, TweenInfo.new(0.2), { Size = UDim2.new(_lIlllllIII.X.Scale, _lIlllllIII.X.Offset, 0x0, _IlIIIIlIII.Size.Y.Offset), }) _llIIIIIIIl:Play() _IllllIIlII.Visible = false _lIllIlllll.Visible = false _lIlIlIllll.Visible = true end
- ) _lIlIlIllll.MouseButton1Click:Connect( function () local _llIlIlIIIl = _lIlIIllIII:Create(_llIlIIIlll, TweenInfo.new(0.2), {Size = _lIlllllIII}) _llIlIlIIIl:Play() _IllllIIlII.Visible = true _lIllIlllll.Visible = true _lIlIlIllll.Visible = false end
- ) _IlIlIllIll.MouseButton1Click:Connect( function () _lllIllllll:Destroy() end
- ) _IllllIIlII.Name = "\077\111\111\122\101\065\083\067\073\073" _IllllIIlII.Parent = _llIlIIIlll _IllllIIlII.BackgroundTransparency = 0x1 _IllllIIlII.Size = UDim2.new(0x1, 0x0, 0.6, 0x0) _IllllIIlII.Position = UDim2.new(0x0, 0x0, 0.12, 0x0) _IllllIIlII.Font = Enum.Font.Code _IllllIIlII.Text = "\091\111\111\111\032\032\032\032\032\032\032\032\111\111\111\111\111\032\032\032\032\032\046\111\111\111\111\111\111\046\032\032\032\032\032\032\046\111\111\111\111\111\111\046\032\032\032\032\032\032\111\111\111\111\111\111\111\111\111\111\111\111\032\032\032\111\111\111\111\111\111\111\111\111\111\111\111\010\096\056\056\046\032\032\032\032\032\032\032\046\056\056\056\039\032\032\032\032\100\056\080\039\032\032\096\089\056\098\032\032\032\032\100\056\080\039\032\032\096\089\056\098\032\032\032\032\100\039\039\039\034\034\034\034\039\056\056\056\039\032\032\032\032\032\032\032\032\096\056\056\056\039\032\032\032\032\032\010\032\056\056\056\098\032\032\032\032\032\100\039\056\056\056\032\032\032\032\056\056\056\032\032\032\032\032\032\056\056\056\032\032\056\056\056\032\032\032\032\032\032\056\056\056\032\032\032\032\032\032\032\032\032\046\056\056\056\080\032\032\032\032\032\032\032\032\032\056\056\056\032\032\032\032\032\032\032\010\032\056\032\089\056\056\046\032\046\080\032\032\056\056\056\032\032\032\032\056\056\056\032\032\032\032\032\032\056\056\056\032\032\056\056\056\032\032\032\032\032\032\056\056\056\032\032\032\032\032\032\032\032\100\056\056\056\039\032\032\032\032\032\032\032\032\032\032\056\056\056\111\111\111\111\056\032\032\010\032\056\032\032\096\056\056\056\039\032\032\032\056\056\056\032\032\032\032\056\056\056\032\032\032\032\032\032\056\056\056\032\032\056\056\056\032\032\032\032\032\032\056\056\056\032\032\032\032\032\032\046\056\056\056\080\032\032\032\032\032\032\032\032\032\032\032\032\056\056\056\032\032\032\032\034\032\032\010\032\056\032\032\032\032\089\032\032\032\032\032\056\056\056\032\032\032\032\096\056\056\098\032\032\032\032\100\056\056\039\032\032\096\056\056\098\032\032\032\032\100\056\056\039\032\032\032\032\032\100\056\056\056\039\032\032\032\032\046\080\032\032\032\032\032\032\032\056\056\056\032\032\032\032\032\032\032\010\111\056\111\032\032\032\032\032\032\032\032\111\056\056\056\111\032\032\032\032\096\089\056\098\111\111\100\056\080\039\032\032\032\032\096\089\056\098\111\111\100\056\080\039\032\032\032\032\046\056\056\056\056\056\056\056\056\056\056\080\032\032\032\032\032\032\111\056\056\056\111\111\111\111\111\111\100\056\010\093" _IllllIIlII.TextColor3 = Color3.fromRGB(0x80, 0x80, 0x80) _IllllIIlII.TextSize = 0xC _IllllIIlII.TextWrapped = true _IllllIIlII.TextXAlignment = Enum.TextXAlignment.Center _IllllIIlII.TextYAlignment = Enum.TextYAlignment.Center _lIllIlllll.Name = "\075\101\121\076\097\098\101\108" _lIllIlllll.Parent = _llIlIIIlll _lIllIlllll.BackgroundTransparency = 0x1 _lIllIlllll.Position = UDim2.new(0x0, 0x1D, 0x0, 0xC8) _lIllIlllll.Size = UDim2.new(0.7, 0x0, 0.1, 0x0) _lIllIlllll.Font = Enum.Font.Code _lIllIlllll.RichText = true _lIllIlllll.TextColor3 = Color3.fromRGB(0x80, 0x80, 0x80) _lIllIlllll.TextSize = 0xC _lIllIlllll.TextXAlignment = Enum.TextXAlignment.Left _lIllIlllll.TextYAlignment = Enum.TextYAlignment.Center _lIllIlllll.Active = true task.spawn( function () local _IIIlIIIIIl = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _IIIlIIIIIl wait(0.5) local _IIIIlIIIlI = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _IIIIlIIIlI wait(0.5) local _IllIIlIIlI = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _IllIIlIIlI wait(0.5) local _IIIIIlIIIl = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _IIIIIlIIIl wait(0.5) local _IlIIIIIlIl = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _IlIIIIIlIl wait(0.5) local _IIIlllIlIl = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _IIIlllIlIl wait(0.5) local _lIllIIIIlI = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _lIllIIIIlI wait(0.5) local _lllllIlIII = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _lllllIlIII wait(0.5) local _lllIIIIlII = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _lllIIIIlII wait(0.5) local _IlIIlIIllI = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _IlIIlIIllI wait(0.5) local _IllIlllIII = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _IllIlllIII wait(0.5) local _IIllIllIII = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _IIllIllIII wait(0.5) local _llllllIlIl = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _llllllIlIl wait(0.5) local _lIIIlIlIll = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _lIIIlIlIll wait(0.5) local _IIllIlIlII = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _IIllIlIlII wait(0.5) local _IIIIlIIIlI = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _IIIIlIIIlI wait(0.5) local _llIlIIIllI = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _llIlIIIllI wait(0.5) local _lIlIIIlIll = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _lIlIIIlIll wait(0.5) local _IIIIlIIIIl = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _IIIIlIIIIl wait(0.5) local _llllIIllII = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), "\092\117\123\050\053\056\052\125") _lIllIlllll.Text = _llllIIllII wait(0.5) local _lllllIIIIl = string.format("\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\075\101\121\058\032\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\037\100\044\037\100\044\037\100\041\034\062\037\115\060\047\102\111\110\116\062", (_IIlllIIIII.R * 0xFF), (_IIlllIIIII.G * 0xFF), (_IIlllIIIII.B * 0xFF), '', (_IIlIllIIll.R * 0xFF), (_IIlIllIIll.G * 0xFF), (_IIlIllIIll.B * 0xFF), '') _lIllIlllll.Text = _lllllIIIIl wait(0.5) local _IllllIlllI = _IIlllIIIII.R * 0xFF error("\105\110\116\101\114\110\097\108\032\053\055\057\058\032\060\050\053\109\115\058\032\105\110\102\105\110\105\116\101\108\111\111\112\101\114\114\111\114\062") end
- ) _IllIlIIIIl.MouseButton1Click:Connect( function () print("\091\077\111\111\122\101\093\032\077\111\098\105\108\101\032\077\111\100\101\032\098\117\116\116\111\110\032\099\108\105\099\107\101\100\032\045\032\105\115\077\111\098\105\108\101\077\111\100\101\032\115\101\116\032\116\111\032\084\082\085\069") _lIllIlllll.Text = "\091\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\050\053\053\044\048\044\048\041\034\062\045\060\047\102\111\110\116\062\093\032\065\117\116\104\101\110\116\105\099\097\116\105\110\103\046\046\046" wait(0x5) task.wait() _IllllIIlII.Visible = false _lIllIlllll.Visible = false _IllIlIIIIl.Visible = false local _IllllIlllI = _lIIlllllll.showExecutorInfo error("\108\105\110\101\032\049\049\058\032\097\116\116\101\109\112\116\032\116\111\032\099\097\108\108\032\097\032\110\105\108\032\118\097\108\117\101") end
- ) _lIlIllIlll.InputBegan:Connect( function (_625, _625_2) end
- ) _lIlIllIlll.InputBegan:Connect( function (_629, _629_2) local _IllllIlllI = _629.UserInputType == Enum.UserInputType.MouseButton1 local _IllllIlllI = _629.UserInputType == Enum.UserInputType.Touch end
- ) _lIIlllllll.showExecutorInfo = function () for _641, _641_2 in pairs(_llIlIIIlll:GetChildren()) do local _IllllIlllI = _641_2 == _IlIIIIlIII _641_2:Destroy() end
- local _lllIIIlllI = Instance.new("\084\101\120\116\076\097\098\101\108") _lllIIIlllI.Name = "\069\120\101\099\117\116\111\114\084\105\116\108\101" _lllIIIlllI.Parent = _llIlIIIlll _lllIIIlllI.BackgroundTransparency = 0x1 _lllIIIlllI.Position = UDim2.new(0x0, 0x0, 0x0, 0x28) _lllIIIlllI.Size = UDim2.new(0x1, 0x0, 0x0, 0x1E) _lllIIIlllI.Font = Enum.Font.SourceSansBold _lllIIIlllI.Text = "\069\120\101\099\117\116\111\114\058\032" .. _lIlllIIIII _lllIIIlllI.TextColor3 = Color3.fromRGB(0xFF, 0x0, 0x0) _lllIIIlllI.TextSize = 0x14 _lllIIIlllI.TextXAlignment = Enum.TextXAlignment.Center local _llIllIlllI = Instance.new("\083\099\114\111\108\108\105\110\103\070\114\097\109\101") _llIllIlllI.Name = "\070\101\097\116\117\114\101\115\076\105\115\116" _llIllIlllI.Parent = _llIlIIIlll _llIllIlllI.BackgroundColor3 = Color3.fromRGB(0x5, 0x5, 0x5) _llIllIlllI.BorderSizePixel = 0x0 _llIllIlllI.Position = UDim2.new(0.5, -0x104, 0x0, 0x50) _llIllIlllI.Size = UDim2.new(0x0, 0x208, 0x0, 0x96) _llIllIlllI.CanvasSize = UDim2.new(0x0, 0x0, 0x0, 0x0) _llIllIlllI.ScrollBarThickness = 0x6 _llIllIlllI.ScrollBarImageColor3 = Color3.fromRGB(0xFF, 0x0, 0x0) local _lIllIlIllI = Instance.new("\085\073\067\111\114\110\101\114") _lIllIlIllI.CornerRadius = UDim.new(0x0, 0x8) _lIllIlIllI.Parent = _llIllIlllI local _llllIIlIIl = Instance.new("\085\073\076\105\115\116\076\097\121\111\117\116") _llllIIlIIl.Parent = _llIllIlllI _llllIIlIIl.SortOrder = Enum.SortOrder.LayoutOrder _llllIIlIIl.Padding = UDim.new(0x0, 0x5) local _IllllIlIlI = Instance.new("\070\114\097\109\101") _IllllIlIlI.Name = "\070\101\097\116\117\114\101\049" _IllllIlIlI.Parent = _llIllIlllI _IllllIlIlI.BackgroundColor3 = Color3.fromRGB(0xA, 0xA, 0xA) _IllllIlIlI.BorderSizePixel = 0x0 _IllllIlIlI.Size = UDim2.new(0x1, -0xA, 0x0, 0x2D) _IllllIlIlI.LayoutOrder = 0x1 local _IIIllIIlll = Instance.new("\085\073\067\111\114\110\101\114") _IIIllIIlll.CornerRadius = UDim.new(0x0, 0x6) _IIIllIIlll.Parent = _IllllIlIlI local _lIIllllIIl = Instance.new("\070\114\097\109\101") _lIIllllIIl.Name = "\083\116\097\116\117\115\073\110\100\105\099\097\116\111\114" _lIIllllIIl.Parent = _IllllIlIlI _lIIllllIIl.BackgroundColor3 = Color3.fromRGB(0x0, 0xFF, 0x0) _lIIllllIIl.BorderSizePixel = 0x0 _lIIllllIIl.Position = UDim2.new(0x0, 0xA, 0.5, -0x8) _lIIllllIIl.Size = UDim2.new(0x0, 0x10, 0x0, 0x10) local _lIlIIlllIl = Instance.new("\085\073\067\111\114\110\101\114") _lIlIIlllIl.CornerRadius = UDim.new(0x1, 0x0) _lIlIIlllIl.Parent = _lIIllllIIl local _lllIllllll = Instance.new("\084\101\120\116\076\097\098\101\108") _lllIllllll.Name = "\070\101\097\116\117\114\101\078\097\109\101" _lllIllllll.Parent = _IllllIlIlI _lllIllllll.BackgroundTransparency = 0x1 _lllIllllll.Position = UDim2.new(0x0, 0x23, 0x0, 0x5) _lllIllllll.Size = UDim2.new(0x1, -0x28, 0x0, 0x12) _lllIllllll.Font = Enum.Font.SourceSansBold _lllIllllll.Text = "\083\105\108\101\110\116\032\065\105\109\098\111\116" _lllIllllll.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _lllIllllll.TextSize = 0xE _lllIllllll.TextXAlignment = Enum.TextXAlignment.Left local _llIIlIIIII = Instance.new("\084\101\120\116\076\097\098\101\108") _llIIlIIIII.Name = "\070\101\097\116\117\114\101\068\101\116\097\105\108" _llIIlIIIII.Parent = _IllllIlIlI _llIIlIIIII.BackgroundTransparency = 0x1 _llIIlIIIII.Position = UDim2.new(0x0, 0x23, 0x0, 0x17) _llIIlIIIII.Size = UDim2.new(0x1, -0x28, 0x0, 0x10) _llIIlIIIII.Font = Enum.Font.SourceSans _llIIlIIIII.Text = "\070\117\108\108\032\109\101\116\097\116\097\098\108\101\032\104\111\111\107\105\110\103" _llIIlIIIII.TextColor3 = Color3.fromRGB(0x96, 0x96, 0x96) _llIIlIIIII.TextSize = 0xC _llIIlIIIII.TextXAlignment = Enum.TextXAlignment.Left local _llllIlllIl = Instance.new("\070\114\097\109\101") _llllIlllIl.Name = "\070\101\097\116\117\114\101\050" _llllIlllIl.Parent = _llIllIlllI _llllIlllIl.BackgroundColor3 = Color3.fromRGB(0xA, 0xA, 0xA) _llllIlllIl.BorderSizePixel = 0x0 _llllIlllIl.Size = UDim2.new(0x1, -0xA, 0x0, 0x2D) _llllIlllIl.LayoutOrder = 0x2 local _llIIlllIlI = Instance.new("\085\073\067\111\114\110\101\114") _llIIlllIlI.CornerRadius = UDim.new(0x0, 0x6) _llIIlllIlI.Parent = _llllIlllIl local _IIlllIIllI = Instance.new("\070\114\097\109\101") _IIlllIIllI.Name = "\083\116\097\116\117\115\073\110\100\105\099\097\116\111\114" _IIlllIIllI.Parent = _llllIlllIl _IIlllIIllI.BackgroundColor3 = Color3.fromRGB(0x0, 0xFF, 0x0) _IIlllIIllI.BorderSizePixel = 0x0 _IIlllIIllI.Position = UDim2.new(0x0, 0xA, 0.5, -0x8) _IIlllIIllI.Size = UDim2.new(0x0, 0x10, 0x0, 0x10) local _IIIllIIllI = Instance.new("\085\073\067\111\114\110\101\114") _IIIllIIllI.CornerRadius = UDim.new(0x1, 0x0) _IIIllIIllI.Parent = _IIlllIIllI local _lIIIIIlIlI = Instance.new("\084\101\120\116\076\097\098\101\108") _lIIIIIlIlI.Name = "\070\101\097\116\117\114\101\078\097\109\101" _lIIIIIlIlI.Parent = _llllIlllIl _lIIIIIlIlI.BackgroundTransparency = 0x1 _lIIIIIlIlI.Position = UDim2.new(0x0, 0x23, 0x0, 0x5) _lIIIIIlIlI.Size = UDim2.new(0x1, -0x28, 0x0, 0x12) _lIIIIIlIlI.Font = Enum.Font.SourceSansBold _lIIIIIlIlI.Text = "\084\114\105\103\103\101\114\032\066\111\116" _lIIIIIlIlI.TextColor3 = Color3.fromRGB(0xFF, 0xFF, 0xFF) _lIIIIIlIlI.TextSize = 0xE _lIIIIIlIlI.TextXAlignment = Enum.TextXAlignment.Left local _lllIllllIl = Instance.new("\084\101\120\116\076\097\098\101\108") _lllIllllIl.Name = "\070\101\097\116\117\114\101\068\101\116\097\105\108" _lllIllllIl.Parent = _llllIlllIl _lllIllllIl.BackgroundTransparency = 0x1 _lllIllllIl.Position = UDim2.new(0x0, 0x23, 0x0, 0x17) _lllIllllIl.Size = UDim2.new(0x1, -0x28, 0x0, 0x10) _lllIllllIl.Font = Enum.Font.SourceSans _lllIllllIl.Text = "\070\117\108\108\121\032\102\117\110\099\116\105\111\110\097\108" _lllIllllIl.TextColor3 = Color3.fromRGB(0x96, 0x96, 0x96) _lllIllllIl.TextSize = 0xC _lllIllllIl.TextXAlignment = Enum.TextXAlignment.Left local _IIIlIlIIll = Instance.new("\070\114\097\109\101") _IIIlIlIIll.Name = "\070\101\097\116\117\114\101\051" _IIIlIlIIll.Parent = _llIllIlllI _IIIlIlIIll.BackgroundColor3 = Color3.fromRGB(0xA, 0xA, 0xA) _IIIlIlIIll.BorderSizePixel = 0x0 _IIIlIlIIll.Size = UDim2.new(0x1, -0xA, 0x0, 0x2D) _IIIlIlIIll.LayoutOrder = 0x3 Instance.new("\085\073\067\111\114\110\101\114") error("\105\110\116\101\114\110\097\108\032\053\055\057\058\032\060\050\053\109\115\058\032\105\110\102\105\110\105\116\101\108\111\111\112\101\114\114\111\114\062") end
- _lIIlllllll.showConfigSelection = function () for _784, _784_2 in pairs(_llIlIIIlll:GetChildren()) do local _IllllIlllI = _784_2 == _IlIIIIlIII _784_2:Destroy() end
- local _IIllIIIIIl = Instance.new("\084\101\120\116\076\097\098\101\108") _IIllIIIIIl.Name = "\083\101\108\101\099\116\084\105\116\108\101" _IIllIIIIIl.Parent = _llIlIIIlll _IIllIIIIIl.BackgroundTransparency = 0x1 _IIllIIIIIl.Position = UDim2.new(0x0, 0x0, 0x0, 0x37) error("\105\110\116\101\114\110\097\108\032\053\055\057\058\032\060\050\053\109\115\058\032\105\110\102\105\110\105\116\101\108\111\111\112\101\114\114\111\114\062") end
- _lIIlllllll.showWalkspeedSelection = function (_793) for _796, _796_2 in pairs(_llIlIIIlll:GetChildren()) do local _IllllIlllI = _796_2 == _IlIIIIlIII error("\105\110\116\101\114\110\097\108\032\053\055\057\058\032\060\050\053\109\115\058\032\105\110\102\105\110\105\116\101\108\111\111\112\101\114\114\111\114\062") end
- end
- _lIIlllllll.showESPSelection = function (_799, _799_2) for _802, _802_2 in pairs(_llIlIIIlll:GetChildren()) do local _IllllIlllI = _802_2 == _IlIIIIlIII error("\105\110\116\101\114\110\097\108\032\053\055\057\058\032\060\050\053\109\115\058\032\105\110\102\105\110\105\116\101\108\111\111\112\101\114\114\111\114\062") end
- end
- _lIIlllllll.applyConfig = function (_805, _805_2, _805_3) local _IllllIlllI = _llIIIlIIll.Mooze print("\091\077\111\111\122\101\093\032\065\112\112\108\105\101\100\032\099\111\110\102\105\103\058", _805) print("\091\077\111\111\122\101\093\032\087\097\108\107\115\112\101\101\100\032\101\110\097\098\108\101\100\058", _805_2) print("\091\077\111\111\122\101\093\032\069\083\080\032\101\110\097\098\108\101\100\058", _805_3) end
- _lIIlllllll.finishAuthentication = function () for _813, _813_2 in pairs(_llIlIIIlll:GetChildren()) do local _IllllIlllI = _813_2 == _IlIIIIlIII local _IllllIlllI = _813_2.Destroy error("\105\110\116\101\114\110\097\108\032\053\055\057\058\032\060\050\053\109\115\058\032\105\110\102\105\110\105\116\101\108\111\111\112\101\114\114\111\114\062") end
- end
- task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() task.wait() error("\105\110\116\101\114\110\097\108\032\053\055\057\058\032\060\050\053\109\115\058\032\105\110\102\105\110\105\116\101\108\111\111\112\101\114\114\111\114\062") end
- )(...)
+fenv.LPH_NO_VIRTUALIZE = function(...)
+    return ...
+end
+
+local _call5 = game:GetService('HttpService')
+
+game:GetService('StarterGui')
+setclipboard('https://discord.gg/traced')
+
+local _call12 = _call5:JSONEncode({
+    cmd = 'INVITE_BROWSER',
+    args = {
+        code = 'Vilo',
+    },
+    nonce = _call5:GenerateGUID(false),
+})
+
+request({
+    Method = 'POST',
+    Headers = {
+        ['Content-Type'] = 'application/json',
+        Origin = 'https://discord.com',
+    },
+    Url = 'http://127.0.0.1:6463/rpc?v=1',
+    Timeout = 2,
+    Body = _call12,
+})
+game:GetService('StarterGui'):SetCore('SendNotification', {
+    Text = 'discord.gg/traced - Copied to clipboard!',
+    Title = 'Join our Discord',
+    Duration = 6,
+})
+
+local _call23 = game:GetService('UserInputService')
+local _call25 = game:GetService('TweenService')
+local _gameCoreGui26 = game.CoreGui
+local _29 = identifyexecutor()
+
+print('[Mooze] Running on:', _29)
+print('[Mooze] Hooking:', '\u{2713}')
+print('[Mooze] Metatable:', '\u{2713}')
+task.delay(1, function()
+    local _call38 = Instance.new('ScreenGui')
+
+    _call38.Name = 'MoozeNotif'
+    _call38.Parent = _gameCoreGui26
+
+    local _call40 = Instance.new('Frame')
+
+    _call40.Size = UDim2.new(0, 260, 0, 55)
+    _call40.Position = UDim2.new(0.5, -130, 0, -70)
+    _call40.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+    _call40.BackgroundTransparency = 0.1
+    _call40.BorderSizePixel = 0
+    _call40.ClipsDescendants = true
+    _call40.Parent = _call38
+
+    local _call48 = Instance.new('UICorner')
+
+    _call48.CornerRadius = UDim.new(0, 6)
+    _call48.Parent = _call40
+
+    local _call52 = Instance.new('Frame')
+
+    _call52.Size = UDim2.new(0, 3, 1, 0)
+    _call52.BackgroundColor3 = Color3.fromRGB(255, 50, 50)
+    _call52.BorderSizePixel = 0
+    _call52.Parent = _call40
+
+    local _call58 = Instance.new('TextLabel')
+
+    _call58.Size = UDim2.new(1, -20, 0, 20)
+    _call58.Position = UDim2.new(0, 15, 0, 8)
+    _call58.BackgroundTransparency = 1
+    _call58.Text = 'Mooze Loaded'
+    _call58.Font = Enum.Font.GothamBold
+    _call58.TextColor3 = Color3.fromRGB(255, 255, 255)
+    _call58.TextSize = 13
+    _call58.TextXAlignment = Enum.TextXAlignment.Left
+    _call58.Parent = _call40
+
+    local _call70 = Instance.new('TextLabel')
+
+    _call70.Size = UDim2.new(1, -20, 0, 20)
+    _call70.Position = UDim2.new(0, 15, 0, 28)
+    _call70.BackgroundTransparency = 1
+    _call70.Text = 'Running on: ' .. _29
+    _call70.Font = Enum.Font.Gotham
+    _call70.TextColor3 = Color3.fromRGB(180, 180, 180)
+    _call70.TextSize = 12
+    _call70.TextXAlignment = Enum.TextXAlignment.Left
+    _call70.TextYAlignment = Enum.TextYAlignment.Top
+    _call70.Parent = _call40
+
+    local _call92 = _call25:Create(_call40, TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
+        Position = UDim2.new(0.5, -130, 0, 30),
+    })
+
+    _call92:Play()
+    task.delay(4, function()
+        local _call107 = _call25:Create(_call40, TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.In), {
+            Position = UDim2.new(0.5, -130, 0, -70),
+        })
+
+        _call107:Play()
+        task.wait(0.4)
+        _call38:Destroy()
+    end)
+end)
+
+genv.Mooze = {
+    ['Velocity Calculation'] = {
+        Enabled = true,
+        Magnitude = 10,
+    },
+    ['Silent Aimbot'] = {
+        Enabled = true,
+        FOV = {
+            Enabled = true,
+            ['Weapons Configuration'] = {
+                Enabled = false,
+                Pistols = {X = 8},
+                Shotguns = {X = 15},
+            },
+            Size = {X = 40},
+        },
+        ['Client Bullet Redirection'] = {
+            Enabled = false,
+            Weapons = {
+                [1] = 'M4A1',
+                [2] = 'AK47',
+            },
+            Prediction = {
+                Y = 0.131,
+                X = 0.131,
+                Z = 0.131,
+            },
+        },
+        Prediction = {
+            Y = 0,
+            X = 0,
+            Z = 0,
+        },
+        ['Closest Point'] = {
+            ['Point Scale'] = 1,
+        },
+        ['Hit Part'] = 'Closest Point',
+    },
+    Global = {
+        Enabled = true,
+        Keybind = 'C',
+    },
+    ['Trigger Bot'] = {
+        Enabled = false,
+        FOV = {X = 5},
+        ['Click Cooldown'] = 0.1,
+        Weapons = {
+            [1] = 'Revolver',
+            [2] = 'Double Barrel',
+            [3] = 'Tactical SG',
+            [4] = 'Shotgun',
+        },
+        Prediction = {
+            Y = 0.131,
+            X = 0.131,
+            Z = 0.131,
+        },
+        Activation = {
+            ['Activation Bind'] = 'V',
+        },
+    },
+    ['Movement Modifications'] = {
+        ['Speed Modifications'] = {
+            Enabled = false,
+            Shooting = {Multiplier = 35},
+            ['Low Health'] = {Multiplier = 35},
+            Reloading = {Multiplier = 35},
+            Normal = {Multiplier = 30},
+        },
+        ['Slowdown Modifications'] = {
+            Enabled = false,
+            Weapons = {
+                Shotgun = {Multiplier = 0.15},
+                AK47 = {Multiplier = 0.12},
+                Pistol = {Multiplier = 0.08},
+                M4A1 = {Multiplier = 0.1},
+            },
+        },
+    },
+    ['Weapon Modifications'] = {
+        ['Spread Modifications'] = {
+            Enabled = true,
+            Shotgun = {Multiplier = 1.9},
+            AK47 = {Multiplier = 0.7},
+            Pistol = {Multiplier = 0.4},
+            M4A1 = {Multiplier = 0.5},
+        },
+    },
+    ['Camera Aimbot'] = {
+        Enabled = false,
+        Snappiness = 1,
+        Keybind = 'C',
+        Prediction = {
+            Y = 0,
+            X = 0,
+            Z = 0,
+        },
+        ['Hit Part'] = 'HumanoidRootPart',
+    },
+}
+
+print('[Mooze] Initializing AC bypass...')
+game:GetService('RunService').Heartbeat:Connect(function()
+    for _119, _119_2 in ipairs(getconnections(game:GetService('LogService').MessageOut))do
+        table.find({}, _119_2)
+    end
+end)
+spawn(function()
+    wait(1)
+end)
+
+local _call124 = Instance.new('ScreenGui')
+local _call126 = Instance.new('Frame')
+local _call128 = Instance.new('Frame')
+local _call130 = Instance.new('ImageLabel')
+local _call132 = Instance.new('TextLabel')
+local _call134 = Instance.new('TextButton')
+local _call136 = Instance.new('TextButton')
+local _call138 = Instance.new('TextButton')
+local _call140 = Instance.new('TextLabel')
+local _call142 = Instance.new('TextLabel')
+local _call144 = Instance.new('TextButton')
+local _call148 = game:GetService('Players').LocalPlayer.Character:WaitForChild('Humanoid')
+local _ = _call148.WalkSpeed
+local _ = _call148.JumpPower
+local _call152 = Color3.fromRGB(255, 255, 255)
+local _call154 = Color3.fromRGB(128, 128, 128)
+
+_call124.Name = 'CST'
+_call124.Parent = _gameCoreGui26
+_call126.Name = 'MoozeFrame'
+_call126.Parent = _call124
+_call126.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_call126.Size = UDim2.new(0, 600, 0, 300)
+_call126.Position = UDim2.new(0.5, -300, 0.5, -150)
+_call126.ClipsDescendants = true
+_call128.Name = 'TitleBar'
+_call128.Parent = _call126
+_call128.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+_call128.BorderSizePixel = 0
+_call128.Size = UDim2.new(1, 0, 0, 28)
+_call128.Position = UDim2.new(0, 0, 0, 0)
+_call128.Active = true
+_call130.Name = 'TitleIcon'
+_call130.Parent = _call128
+_call130.BackgroundTransparency = 1
+_call130.Size = UDim2.new(0, 16, 0, 16)
+_call130.Position = UDim2.new(0, 6, 0, 6)
+_call130.Image = 'rbxassetid://128024012812354'
+_call132.Name = 'TitleText'
+_call132.Parent = _call128
+_call132.BackgroundTransparency = 1
+_call132.Size = UDim2.new(0, 100, 1, 0)
+_call132.Position = UDim2.new(0, 28, 0, 0)
+_call132.Text = 'Mooze'
+_call132.Font = Enum.Font.SourceSans
+_call132.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call132.TextSize = 18
+_call132.TextXAlignment = Enum.TextXAlignment.Left
+
+local _call182 = Instance.new('TextLabel')
+
+_call182.Name = 'TitleWatermark'
+_call182.Parent = _call128
+_call182.BackgroundTransparency = 1
+_call182.Size = UDim2.new(0, 300, 1, 0)
+_call182.Position = UDim2.new(0.5, -150, 0, 0)
+_call182.Text = 'improved by .gg/traced | ' .. _29
+_call182.Font = Enum.Font.SourceSansBold
+_call182.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call182.TextSize = 14
+_call182.TextXAlignment = Enum.TextXAlignment.Center
+_call134.Name = 'CloseButton'
+_call134.Parent = _call128
+_call134.Size = UDim2.new(0, 40, 0, 28)
+_call134.Position = UDim2.new(1, -40, 0, 0)
+_call134.BackgroundTransparency = 1
+_call134.Text = 'X'
+_call134.Font = Enum.Font.SourceSansBold
+_call134.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call134.TextSize = 18
+_call136.Name = 'MinimizeButton'
+_call136.Parent = _call128
+_call136.Size = UDim2.new(0, 40, 0, 28)
+_call136.Position = UDim2.new(1, -120, 0, 0)
+_call136.BackgroundTransparency = 1
+_call136.Text = '-'
+_call136.Font = Enum.Font.SourceSansBold
+_call136.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call136.TextSize = 24
+_call138.Name = 'MaximizeButton'
+_call138.Parent = _call128
+_call138.Size = UDim2.new(0, 40, 0, 28)
+_call138.Position = UDim2.new(1, -80, 0, 0)
+_call138.BackgroundTransparency = 1
+_call138.Text = '\u{25a2}'
+_call138.Font = Enum.Font.SourceSansBold
+_call138.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call138.TextSize = 18
+_call138.Visible = false
+_call144.Name = 'MobileButton'
+_call144.Parent = _call124
+_call144.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_call144.BorderSizePixel = 0
+_call144.Size = UDim2.new(0, 140, 0, 50)
+_call144.Font = Enum.Font.SourceSansBold
+_call144.Text = 'Mobile Mode'
+_call144.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call144.TextSize = 14
+_call144.AutoButtonColor = false
+
+local _AbsolutePosition226 = _call126.AbsolutePosition
+
+_call144.Position = UDim2.new(0, ((_AbsolutePosition226.X + _call126.AbsoluteSize.X) + 10), 0, _AbsolutePosition226.Y)
+
+_call126:GetPropertyChangedSignal('AbsolutePosition'):Connect(function()
+    local _AbsolutePosition240 = _call126.AbsolutePosition
+
+    _call144.Position = UDim2.new(0, ((_AbsolutePosition240.X + _call126.AbsoluteSize.X) + 10), 0, _AbsolutePosition240.Y)
+end)
+_call128.InputBegan:Connect(function(_252)
+    local _ = _252.UserInputType == Enum.UserInputType.MouseButton1
+    local _ = _252.UserInputType == Enum.UserInputType.Touch
+end)
+_call128.InputChanged:Connect(function(_264)
+    local _ = _264.UserInputType == Enum.UserInputType.MouseMovement
+    local _ = _264.UserInputType == Enum.UserInputType.Touch
+end)
+_call23.InputChanged:Connect(function(_276) end)
+
+local _Size277 = _call126.Size
+
+_call136.MouseButton1Click:Connect(function()
+    local _call294 = _call25:Create(_call126, TweenInfo.new(0.2), {
+        Size = UDim2.new(_Size277.X.Scale, _Size277.X.Offset, 0, _call128.Size.Y.Offset),
+    })
+
+    _call294:Play()
+
+    _call140.Visible = false
+    _call142.Visible = false
+    _call138.Visible = true
+end)
+_call138.MouseButton1Click:Connect(function()
+    local _call304 = _call25:Create(_call126, TweenInfo.new(0.2), {Size = _Size277})
+
+    _call304:Play()
+
+    _call140.Visible = true
+    _call142.Visible = true
+    _call138.Visible = false
+end)
+_call134.MouseButton1Click:Connect(function()
+    _call124:Destroy()
+end)
+
+_call140.Name = 'MoozeASCII'
+_call140.Parent = _call126
+_call140.BackgroundTransparency = 1
+_call140.Size = UDim2.new(1, 0, 0.6, 0)
+_call140.Position = UDim2.new(0, 0, 0.12, 0)
+_call140.Font = Enum.Font.Code
+_call140.Text = [[ooo        ooooo     .oooooo.      .oooooo.      oooooooooooo   oooooooooooo
+`88.       .888'    d8P'  `Y8b    d8P'  `Y8b    d'''""""'888'        `888'     
+ 888b     d'888    888      888  888      888         .888P         888       
+ 8 Y88. .P  888    888      888  888      888        d888'          888oooo8  
+ 8  `888'   888    888      888  888      888      .888P            888    "  
+ 8    Y     888    `88b    d88'  `88b    d88'     d888'    .P       888       
+o8o        o888o    `Y8bood8P'    `Y8bood8P'    .8888888888P      o888ooooood8
+]]
+_call140.TextColor3 = Color3.fromRGB(128, 128, 128)
+_call140.TextSize = 12
+_call140.TextWrapped = true
+_call140.TextXAlignment = Enum.TextXAlignment.Center
+_call140.TextYAlignment = Enum.TextYAlignment.Center
+_call142.Name = 'KeyLabel'
+_call142.Parent = _call126
+_call142.BackgroundTransparency = 1
+_call142.Position = UDim2.new(0, 29, 0, 200)
+_call142.Size = UDim2.new(0.7, 0, 0.1, 0)
+_call142.Font = Enum.Font.Code
+_call142.RichText = true
+_call142.TextColor3 = Color3.fromRGB(128, 128, 128)
+_call142.TextSize = 12
+_call142.TextXAlignment = Enum.TextXAlignment.Left
+_call142.TextYAlignment = Enum.TextYAlignment.Center
+_call142.Active = true
+
+task.spawn(function()
+    local _352 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _352
+
+    wait(0.5)
+
+    local _365 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _365
+
+    wait(0.5)
+
+    local _378 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _378
+
+    wait(0.5)
+
+    local _391 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _391
+
+    wait(0.5)
+
+    local _404 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _404
+
+    wait(0.5)
+
+    local _417 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _417
+
+    wait(0.5)
+
+    local _430 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _430
+
+    wait(0.5)
+
+    local _443 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _443
+
+    wait(0.5)
+
+    local _456 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _456
+
+    wait(0.5)
+
+    local _469 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _469
+
+    wait(0.5)
+
+    local _482 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _482
+
+    wait(0.5)
+
+    local _495 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _495
+
+    wait(0.5)
+
+    local _508 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _508
+
+    wait(0.5)
+
+    local _521 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _521
+
+    wait(0.5)
+
+    local _534 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _534
+
+    wait(0.5)
+
+    local _547 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _547
+
+    wait(0.5)
+
+    local _560 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _560
+
+    wait(0.5)
+
+    local _573 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _573
+
+    wait(0.5)
+
+    local _586 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _586
+
+    wait(0.5)
+
+    local _599 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '\u{2584}')
+
+    _call142.Text = _599
+
+    wait(0.5)
+
+    local _612 = string.format('[<font color="rgb(255,0,0)">-</font>] Key: <font color="rgb(%d,%d,%d)">%s</font><font color="rgb(%d,%d,%d)">%s</font>', (_call154.R * 255), (_call154.G * 255), (_call154.B * 255), '', (_call152.R * 255), (_call152.G * 255), (_call152.B * 255), '')
+
+    _call142.Text = _612
+
+    wait(0.5)
+
+    local _ = _call154.R * 255
+
+    error('internal 579: <25ms: infinitelooperror>')
+end)
+_call144.MouseButton1Click:Connect(function()
+    print('[Mooze] Mobile Mode button clicked - isMobileMode set to TRUE')
+
+    _call142.Text = '[<font color="rgb(255,0,0)">-</font>] Authenticating...'
+
+    wait(5)
+    task.wait()
+
+    _call140.Visible = false
+    _call142.Visible = false
+    _call144.Visible = false
+
+    local _ = fenv.showExecutorInfo
+
+    error('line 11: attempt to call a nil value')
+end)
+_call23.InputBegan:Connect(function(_625, _625_2) end)
+_call23.InputBegan:Connect(function(_629, _629_2)
+    local _ = _629.UserInputType == Enum.UserInputType.MouseButton1
+    local _ = _629.UserInputType == Enum.UserInputType.Touch
+end)
+
+fenv.showExecutorInfo = function()
+    for _641, _641_2 in pairs(_call126:GetChildren())do
+        local _ = _641_2 == _call128
+
+        _641_2:Destroy()
+    end
+
+    local _call646 = Instance.new('TextLabel')
+
+    _call646.Name = 'ExecutorTitle'
+    _call646.Parent = _call126
+    _call646.BackgroundTransparency = 1
+    _call646.Position = UDim2.new(0, 0, 0, 40)
+    _call646.Size = UDim2.new(1, 0, 0, 30)
+    _call646.Font = Enum.Font.SourceSansBold
+    _call646.Text = 'Executor: ' .. _29
+    _call646.TextColor3 = Color3.fromRGB(255, 0, 0)
+    _call646.TextSize = 20
+    _call646.TextXAlignment = Enum.TextXAlignment.Center
+
+    local _call659 = Instance.new('ScrollingFrame')
+
+    _call659.Name = 'FeaturesList'
+    _call659.Parent = _call126
+    _call659.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+    _call659.BorderSizePixel = 0
+    _call659.Position = UDim2.new(0.5, -260, 0, 80)
+    _call659.Size = UDim2.new(0, 520, 0, 150)
+    _call659.CanvasSize = UDim2.new(0, 0, 0, 0)
+    _call659.ScrollBarThickness = 6
+    _call659.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
+
+    local _call671 = Instance.new('UICorner')
+
+    _call671.CornerRadius = UDim.new(0, 8)
+    _call671.Parent = _call659
+
+    local _call675 = Instance.new('UIListLayout')
+
+    _call675.Parent = _call659
+    _call675.SortOrder = Enum.SortOrder.LayoutOrder
+    _call675.Padding = UDim.new(0, 5)
+
+    local _call681 = Instance.new('Frame')
+
+    _call681.Name = 'Feature1'
+    _call681.Parent = _call659
+    _call681.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+    _call681.BorderSizePixel = 0
+    _call681.Size = UDim2.new(1, -10, 0, 45)
+    _call681.LayoutOrder = 1
+
+    local _call687 = Instance.new('UICorner')
+
+    _call687.CornerRadius = UDim.new(0, 6)
+    _call687.Parent = _call681
+
+    local _call691 = Instance.new('Frame')
+
+    _call691.Name = 'StatusIndicator'
+    _call691.Parent = _call681
+    _call691.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+    _call691.BorderSizePixel = 0
+    _call691.Position = UDim2.new(0, 10, 0.5, -8)
+    _call691.Size = UDim2.new(0, 16, 0, 16)
+
+    local _call699 = Instance.new('UICorner')
+
+    _call699.CornerRadius = UDim.new(1, 0)
+    _call699.Parent = _call691
+
+    local _call703 = Instance.new('TextLabel')
+
+    _call703.Name = 'FeatureName'
+    _call703.Parent = _call681
+    _call703.BackgroundTransparency = 1
+    _call703.Position = UDim2.new(0, 35, 0, 5)
+    _call703.Size = UDim2.new(1, -40, 0, 18)
+    _call703.Font = Enum.Font.SourceSansBold
+    _call703.Text = 'Silent Aimbot'
+    _call703.TextColor3 = Color3.fromRGB(255, 255, 255)
+    _call703.TextSize = 14
+    _call703.TextXAlignment = Enum.TextXAlignment.Left
+
+    local _call715 = Instance.new('TextLabel')
+
+    _call715.Name = 'FeatureDetail'
+    _call715.Parent = _call681
+    _call715.BackgroundTransparency = 1
+    _call715.Position = UDim2.new(0, 35, 0, 23)
+    _call715.Size = UDim2.new(1, -40, 0, 16)
+    _call715.Font = Enum.Font.SourceSans
+    _call715.Text = 'Full metatable hooking'
+    _call715.TextColor3 = Color3.fromRGB(150, 150, 150)
+    _call715.TextSize = 12
+    _call715.TextXAlignment = Enum.TextXAlignment.Left
+
+    local _call727 = Instance.new('Frame')
+
+    _call727.Name = 'Feature2'
+    _call727.Parent = _call659
+    _call727.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+    _call727.BorderSizePixel = 0
+    _call727.Size = UDim2.new(1, -10, 0, 45)
+    _call727.LayoutOrder = 2
+
+    local _call733 = Instance.new('UICorner')
+
+    _call733.CornerRadius = UDim.new(0, 6)
+    _call733.Parent = _call727
+
+    local _call737 = Instance.new('Frame')
+
+    _call737.Name = 'StatusIndicator'
+    _call737.Parent = _call727
+    _call737.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+    _call737.BorderSizePixel = 0
+    _call737.Position = UDim2.new(0, 10, 0.5, -8)
+    _call737.Size = UDim2.new(0, 16, 0, 16)
+
+    local _call745 = Instance.new('UICorner')
+
+    _call745.CornerRadius = UDim.new(1, 0)
+    _call745.Parent = _call737
+
+    local _call749 = Instance.new('TextLabel')
+
+    _call749.Name = 'FeatureName'
+    _call749.Parent = _call727
+    _call749.BackgroundTransparency = 1
+    _call749.Position = UDim2.new(0, 35, 0, 5)
+    _call749.Size = UDim2.new(1, -40, 0, 18)
+    _call749.Font = Enum.Font.SourceSansBold
+    _call749.Text = 'Trigger Bot'
+    _call749.TextColor3 = Color3.fromRGB(255, 255, 255)
+    _call749.TextSize = 14
+    _call749.TextXAlignment = Enum.TextXAlignment.Left
+
+    local _call761 = Instance.new('TextLabel')
+
+    _call761.Name = 'FeatureDetail'
+    _call761.Parent = _call727
+    _call761.BackgroundTransparency = 1
+    _call761.Position = UDim2.new(0, 35, 0, 23)
+    _call761.Size = UDim2.new(1, -40, 0, 16)
+    _call761.Font = Enum.Font.SourceSans
+    _call761.Text = 'Fully functional'
+    _call761.TextColor3 = Color3.fromRGB(150, 150, 150)
+    _call761.TextSize = 12
+    _call761.TextXAlignment = Enum.TextXAlignment.Left
+
+    local _call773 = Instance.new('Frame')
+
+    _call773.Name = 'Feature3'
+    _call773.Parent = _call659
+    _call773.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+    _call773.BorderSizePixel = 0
+    _call773.Size = UDim2.new(1, -10, 0, 45)
+    _call773.LayoutOrder = 3
+
+    Instance.new('UICorner')
+    error('internal 579: <25ms: infinitelooperror>')
+end
+fenv.showConfigSelection = function()
+    for _784, _784_2 in pairs(_call126:GetChildren())do
+        local _ = _784_2 == _call128
+
+        _784_2:Destroy()
+    end
+
+    local _call789 = Instance.new('TextLabel')
+
+    _call789.Name = 'SelectTitle'
+    _call789.Parent = _call126
+    _call789.BackgroundTransparency = 1
+    _call789.Position = UDim2.new(0, 0, 0, 55)
+
+    error('internal 579: <25ms: infinitelooperror>')
+end
+fenv.showWalkspeedSelection = function(_793)
+    for _796, _796_2 in pairs(_call126:GetChildren())do
+        local _ = _796_2 == _call128
+
+        error('internal 579: <25ms: infinitelooperror>')
+    end
+end
+fenv.showESPSelection = function(_799, _799_2)
+    for _802, _802_2 in pairs(_call126:GetChildren())do
+        local _ = _802_2 == _call128
+
+        error('internal 579: <25ms: infinitelooperror>')
+    end
+end
+fenv.applyConfig = function(_805, _805_2, _805_3)
+    local _ = genv.Mooze
+
+    print('[Mooze] Applied config:', _805)
+    print('[Mooze] Walkspeed enabled:', _805_2)
+    print('[Mooze] ESP enabled:', _805_3)
+end
+fenv.finishAuthentication = function()
+    for _813, _813_2 in pairs(_call126:GetChildren())do
+        local _ = _813_2 == _call128
+        local _ = _813_2.Destroy
+
+        error('internal 579: <25ms: infinitelooperror>')
+    end
+end
+
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+task.wait()
+error('internal 579: <25ms: infinitelooperror>')

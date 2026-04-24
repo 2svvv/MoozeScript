@@ -9,7 +9,7 @@ end
 local _call5 = game:GetService('HttpService')
 
 game:GetService('StarterGui')
-setclipboard('https://discord.gg/traced')
+setclipboard('https://discord.gg/h5arkSS8hm')
 
 local _call12 = _call5:JSONEncode({
     cmd = 'INVITE_BROWSER',
@@ -30,7 +30,7 @@ request({
     Body = _call12,
 })
 game:GetService('StarterGui'):SetCore('SendNotification', {
-    Text = 'discord.gg/traced - Copied to clipboard!',
+    Text = 'https://discord.gg/h5arkSS8hm - Copied to clipboard!',
     Title = 'Join our Discord',
     Duration = 6,
 })
